@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label_Available" xml:space="preserve">
+    <value>Disponible</value>
+  </data>
+  <data name="Label_Basic" xml:space="preserve">
+    <value>Basico</value>
+  </data>
+  <data name="Label_Calculating" xml:space="preserve">
+    <value>Calculando...</value>
+  </data>
+  <data name="Label_CalculatingRecords" xml:space="preserve">
+    <value>Calculando {0} pistas</value>
+  </data>
+  <data name="Label_ChartDetails" xml:space="preserve">
+    <value>Detalle de gráfica</value>
+  </data>
+  <data name="Label_Clear" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Label_Climbs" xml:space="preserve">
+    <value>Ascensos</value>
+  </data>
+  <data name="Label_CourseScore" xml:space="preserve">
+    <value>Course Score</value>
+  </data>
+  <data name="Label_Cycling" xml:space="preserve">
+    <value>Bicicleta</value>
+  </data>
+  <data name="Label_Defaults" xml:space="preserve">
+    <value>Por defecto</value>
+  </data>
+  <data name="Label_Descents" xml:space="preserve">
+    <value>Descensos</value>
+  </data>
+  <data name="Label_DistancePercent" xml:space="preserve">
+    <value>Porcentaje de distancia</value>
+  </data>
+  <data name="Label_ElevationPercent" xml:space="preserve">
+    <value>Porcentaje de elevación</value>
+  </data>
+  <data name="Label_End" xml:space="preserve">
+    <value>Fin</value>
+  </data>
+  <data name="Label_EvalCategoryLimit" xml:space="preserve">
+    <value>Versión de evaluación limitada a {0} Categorías de distancia</value>
+  </data>
+  <data name="Label_EvalHistoryLimit" xml:space="preserve">
+    <value>Versión de evaluación bloqueada para evaluar mas de  {0} días previos.  ver página de configuración para desbloquear.</value>
+  </data>
+  <data name="Label_Fill" xml:space="preserve">
+    <value>Llenar</value>
+  </data>
+  <data name="Label_FindHillsLikeThis" xml:space="preserve">
+    <value>Encontrar ascenso similar en todas las actividades de esta categoría</value>
+  </data>
+  <data name="Label_FindThisHillInAllActivites" xml:space="preserve">
+    <value>Encontrar esté ascenso en todas las actividades de esta categoría</value>
+  </data>
+  <data name="Label_Hardest" xml:space="preserve">
+    <value>Mas duro</value>
+  </data>
+  <data name="Label_HardestClimb" xml:space="preserve">
+    <value>Ascenso mas duro</value>
+  </data>
+  <data name="Label_HillDistanceRequired" xml:space="preserve">
+    <value>Distancia de ascenso requerido</value>
+  </data>
+  <data name="Label_HillElevationRequired" xml:space="preserve">
+    <value>Elevación de ascenso requerido</value>
+  </data>
+  <data name="Label_HillFinderSettings" xml:space="preserve">
+    <value>Configuración para establecer ascensos</value>
+  </data>
+  <data name="Label_HillId" xml:space="preserve">
+    <value>No. Ascenso</value>
+  </data>
+  <data name="Label_HillScore" xml:space="preserve">
+    <value>Calificación de ascenso</value>
+  </data>
+  <data name="Label_HillScoreEquation" xml:space="preserve">
+    <value>Ecuación de calificación de ascenso</value>
+  </data>
+  <data name="Label_Longest" xml:space="preserve">
+    <value>Mas largo</value>
+  </data>
+  <data name="Label_LongestClimb" xml:space="preserve">
+    <value>Ascenso mas largo</value>
+  </data>
+  <data name="Label_MaxDescentElevationChange" xml:space="preserve">
+    <value>Máximo cambio de elevación en descenso</value>
+  </data>
+  <data name="Label_MaxDescentLength" xml:space="preserve">
+    <value>Máxima longitud de Descenso</value>
+  </data>
+  <data name="Label_MinAvgGrade" xml:space="preserve">
+    <value>Grado promedio mínimo</value>
+  </data>
+  <data name="Label_Overall" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="Label_Running" xml:space="preserve">
+    <value>Correr</value>
+  </data>
+  <data name="Label_Score" xml:space="preserve">
+    <value>Calificación</value>
+  </data>
+  <data name="Label_SelectedCharts" xml:space="preserve">
+    <value>Gráficas seleccionadas</value>
+  </data>
+  <data name="Label_Sport" xml:space="preserve">
+    <value>Deporte</value>
+  </data>
+  <data name="Label_Steepest" xml:space="preserve">
+    <value>Mas pronunciada</value>
+  </data>
+  <data name="Label_SteepestClimb" xml:space="preserve">
+    <value>Ascenso mas pronunciado</value>
+  </data>
+  <data name="Label_VAM" xml:space="preserve">
+    <value>VAM</value>
+  </data>
+  <data name="Label_wKg" xml:space="preserve">
+    <value>W/kg</value>
+  </data>
+  <data name="Message_InvalidCharacter" xml:space="preserve">
+    <value>Carácter invalido</value>
+  </data>
+  <data name="Message_NoGPS" xml:space="preserve">
+    <value>Esté ascenso no tiene datos GPS, no se podrá encontrar el ascenso exacto</value>
+  </data>
+  <data name="Tooltip_DistancePercent" xml:space="preserve">
+    <value>Si la distancia del descenso actual  dividido entre la distancia total del ascenso, es mayor que este número, el descenso no será parte del ascenso (ejemplo 0.33)</value>
+  </data>
+  <data name="Tooltip_ElevationPercent" xml:space="preserve">
+    <value>Si la altura del descenso actual  dividido entre la altura total del ascenso, es mayor que este número, el descenso no será parte del ascenso (ejemplo 0.33)</value>
+  </data>
+  <data name="Tooltip_HillDistanceRequired" xml:space="preserve">
+    <value>La distancia mínima para llamarlo un ascenso</value>
+  </data>
+  <data name="Tooltip_HillElevationRequired" xml:space="preserve">
+    <value>El cambio en la elevación para poder llamarlo ascenso</value>
+  </data>
+  <data name="Tooltip_MaxDescentElevationChange" xml:space="preserve">
+    <value>Cambio máximo de elevación para un descenso único antes de que se termine el ascenso (por ejemplo "200" para una caída de 200 metros).</value>
+  </data>
+  <data name="Tooltip_MaxDescentLength" xml:space="preserve">
+    <value>La longitud máxima para un descenso único antes de que se termine el ascenso.</value>
+  </data>
+  <data name="Tooltip_MinAvgGrade" xml:space="preserve">
+    <value>Grado mínimo para considerarlo un ascenso</value>
+  </data>
+</root>
